@@ -1,0 +1,18 @@
+{
+  "name": "barcode_scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "onscan.js": "^1.5.2",
+    "print-js": "^1.6.0"
+  }
+}
