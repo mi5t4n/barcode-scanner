@@ -44,7 +44,14 @@ jQuery( function( $ ) {
             onScan: function( code, qty ) {
                 console.log( "Code = " + code );
                 console.log( "Quantity = " + qty );
-                fetchReport(code);
+                if ( code !== '' ) {
+                    $('#content').html( "Code = " + code );
+                    printJS( 'content', 'html');
+                    setTimeout( function() {
+                        $('#content').html( "No Code" );
+                    }, 15000)
+                }
+                
             },
         }
     )
